@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-.toDoInput {
+.toDoInput, .name {
     width: 300px;
     height: 25px;
 }
