@@ -1,0 +1,69 @@
+.layer {
+    position: absolute;
+    top:25%;
+    left:35%;
+}
+
+.form,
+.greetings {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+.js-toDoForm {
+    text-align: center;
+}
+
+.toDoInput {
+    width: 300px;
+    height: 25px;
+}
+
+.js-title {
+    font-size: 70px;
+    color: white;
+}
+
+.js-weather {
+    color: white;
+}
+
+.showing {
+    display: block;
+}
+
+.delBtn {
+    border: none; 
+    background: transparent;
+}
+
+.js-toDoList > li > span {
+    font-size:20px;
+    margin-right:5px;
+    color: white;
+}
+
+.js-toDoList > li {
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
